@@ -2,7 +2,7 @@ import pyautogui, webbrowser
 from time import sleep
 
 # Include your country code and no spaces
-phone = '+34651413766'
+phone = 'PHONE_NUMBER'
 
 # Open whatsapp web
 webbrowser.open(f'https://web.whatsapp.com/send?phone={phone}')
